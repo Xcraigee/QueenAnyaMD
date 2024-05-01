@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("2784786044,")
 global.port= process.env.PORT || 5000
 global.email = 'queen-anya-md@gmain.com'
 global.github = 'https://github.com/Hex-ULTRA-Tech-Ofc/QueenAnyaMD'
@@ -12,8 +12,8 @@ global.sudo = process.env.SUDO || '94711449492'
 global.devs = '94711449492';
 global.website = 'https://github.com/Hex-ULTRA-Tech-Ofc/QueenAnyaMD' //wa.me/+94000000000000
 module.exports = {
-  botname: process.env.BOT_NAME || 'Qᴜᴇᴇɴ 𝙰𝚗𝚢𝚊 ᴍᴅ',
-  ownername:process.env.OWNER_NAME || 'ᴹᴿ ʜᴇx ᴜʟᴛʀᴀ ᴛᴇᴄʜ',
+  botname: process.env.BOT_NAME || 'X',
+  ownername:process.env.OWNER_NAME || 'CraigeeX',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   packname: process.env.PACK_INFO.split(";")[1] || 'Name',
   autoreaction: process.env.AUTO_REACTION || 'off',
